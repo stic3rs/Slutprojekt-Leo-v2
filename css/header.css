@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: fantasy;
+    overflow-x: hidden;
+}
+.header-container{
+    background-color: white;
+    width: 100vw;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    border-bottom: 3px solid black;
+    position: fixed;
+}
+.nav-slide{
+  transition: 1s;
+}
+.color a{
+  color: black;
+}
+.icon-container-left-side{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+}
+.menu-icon a,.search-icon a, .account-icon a, .cart-icon a {
+    color: black;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.logo-container a{
+    font-size: 40px;
+    color: black;
+}
+
+i:hover{
+  cursor: pointer;
+}
+.icon-container-right-side{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    font-size: 20px;
+    color: black;
+}
+.slide-content{
+    display: none;
+    padding-top: 65px;
+    transition: all 10s;
+  }
+  .slide-button a{
+    display: flex;
+    text-decoration: none;
+
+    height: 70px;
+    padding-left: 17px;
+    align-items: center;
+    margin-right: auto;
+  }
+  .slide-content.slide-button{
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    height: 100vh;
+    width: 325px;
+    margin-top: -55px;
+    margin-left: -21px;
+    transition: right 2s ease;
+  }
+  .slide-button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+  }
+  #slide-content-close{
+    background-color: white;
+    margin-bottom: 28px;
+    position: absolute;
+    top: 0;
+    padding-left: 18px;
+    padding-top: 29px;
+    font-size: 25px;
+  }
+  .slide-content-bottom{
+    bottom: 1;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-top: auto;
+    border-bottom: 1px solid black;
+  }
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:90%;
+    color: black;
+  }
+  .parent :hover{
+    transition: background-color 0.5s;
+  }
+  span{
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .parent a:hover{
+    background-color: rgb(109, 109, 109);
+  }
+  .border{
+    border-top: 2px solid rgb(65, 65, 65);
+  }
+
+  /*
+    Koden nedan är stulen, men den ser fin ut
+  */
+  .logo-container a{
+    font-size: 35px;
+    display: inline-block;
+    background-image: linear-gradient(#000 0 0);
+    background-position: 0 100%;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+    background-size 0.3s,
+    background-position 0s 0.3s;
+  }
+  .logo-container a:hover{
+    background-position: 100% 100%;
+    background-size: 100% 2px;
+  }

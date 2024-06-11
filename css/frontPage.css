@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: fantasy;
+    z-index: 100;
+}
+
+
+.car-collection-container {
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 712px;
+  margin-top: 50px;
+}
+.car-collection-img img{
+  height: 100%;
+  width: 100%;
+}
+.car-collection-text {
+  position: absolute;
+  top: 70%;
+  font-size: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.car-collection-text a{
+  padding: 10px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+.car-collection-text a:hover{
+  background-color: rgb(210, 206, 206);
+  transition: background-color 0.5s;
+}
+.perfume-collection-img{
+  display: flex;
+  justify-content: center;
+}
+.perfume-collection-container {
+  position: relative;
+  background-color: white;
+  color: black;
+  width: 100vw;
+  height: 712px;
+}
+.perfume-collection-img img{
+  height: 100%;
+  width: 100%;
+  max-width: 750px;
+  display: block;
+}
+.perfume-collection-text{
+  position: absolute;
+  top: 70%;
+  font-size: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.perfume-collection-text a{
+  padding: 10px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+.perfume-collection-text a:hover{
+  background-color: rgb(74, 74, 74);
+  transition: background-color 0.5s;
+}
+ 
+.necklace-collection-container {
+  position: relative;
+  position: sticky;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 712px;
+  overflow: hidden;
+}
+.necklace-collection-img{
+  display: flex;
+  justify-content: center;
+}
+.necklace-collection-img img{
+  height: 100%;
+  width: 100%;
+  max-width: 750px;
+  display: block;
+}
+.necklace-collection-text {
+  position: absolute;
+  top: 70%;
+  font-size: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.necklace-collection-text a{
+  padding: 10px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+.necklace-collection-text a:hover{
+  background-color: rgb(210, 206, 206);
+  transition: background-color 0.5s;
+}
+h2{
+  font-size: 15px;
+}
+h1{
+  font-size: 22px;
+}

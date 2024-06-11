@@ -1,0 +1,177 @@
+body{
+    width: 100%;
+    align-items: center;
+}
+.main-product{
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-product img{
+    width: 100%;
+}
+.bag-info{
+    width: 100%;
+    margin-top: -5px;
+    height: 10px;
+    background-color: black;
+    padding-bottom: 30px;
+}
+.bag-price a{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 20px;
+}
+.bag-price a:hover{
+    text-decoration: underline;
+}
+video{
+    width: 100px;
+    height: 100px;
+}
+.brad{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.video-container{
+    margin-top: 30px;
+}
+video{
+    height: 100%;
+    width: 100%;
+}
+.handbag{
+    height: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    background-color: black;
+}
+.text-container p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+.text-container {
+    color: black;
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.text {
+    width: 60%;
+    max-width: 710px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-container{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.order-container img{
+    width: 70%;
+    max-width: 530px;
+    padding-top: 60px;
+}
+.information{
+    margin-bottom: 40px;
+    width: 70%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.information P{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#pung{
+    font-weight: 100;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button a{
+    padding: 15px;
+    width: 90px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.button a:hover{
+    background-color: rgb(85, 85, 85);
+    transition: background-color 0.5s;
+}
+
+
+
+.slide-content{
+    display: none;
+    padding-top: 65px;
+    transition: all 10s;
+  }
+  .slide-button a{
+    display: flex;
+    text-decoration: none;
+
+    height: 70px;
+    padding-left: 17px;
+    align-items: center;
+    margin-right: auto;
+  }
+  .slide-content.slide-button{
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    height: 100vh;
+    width: 325px;
+    margin-top: -55px;
+    margin-left: -21px;
+    transition: right 2s ease;
+  }
+  .slide-button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+  }
+  #slide-content-close{
+    background-color: white;
+    margin-bottom: 28px;
+    position: absolute;
+    top: 0;
+    padding-left: 18px;
+    padding-top: 29px;
+    font-size: 25px;
+  }
+  .slide-content-bottom{
+    bottom: 1;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-top: auto;
+    border-bottom: 1px solid black;
+  }
